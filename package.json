@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-plugin-emit-graphql-types",
+  "version": "1.0.0",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "graphql",
+    "types",
+    "typescript",
+    "relay",
+    "relay-compiler-language-typescript"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-relay": "^2.0.0",
+    "graphql-compiler": "^1.7.0",
+    "minilog": "^3.1.0",
+    "relay": "^0.8.0-1",
+    "relay-compiler-language-typescript": "^2.0.0",
+    "typescript": "^3.3.1",
+    "write": "^1.0.3"
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "proseWrap": "always",
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.3"
+  }
+}
