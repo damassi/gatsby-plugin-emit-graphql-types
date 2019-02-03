@@ -1,6 +1,7 @@
 {
   "name": "gatsby-plugin-emit-graphql-types",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "description": "A Gatsby plugin that emits GraphQL TypeScript types",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
@@ -11,6 +12,19 @@
     "relay-compiler-language-typescript"
   ],
   "license": "MIT",
+  "authors": [
+    "Christopher Pappas <damassi.pappas@gmail.com>"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damassi/gatsby-plugin-emit-graphql-types"
+  },
+  "bugs": {
+    "url": "https://github.com/damassi/gatsby-plugin-emit-graphql-types/issues"
+  },
   "dependencies": {
     "babel-plugin-relay": "^2.0.0",
     "graphql-compiler": "^1.7.0",
@@ -20,14 +34,15 @@
     "typescript": "^3.3.1",
     "write": "^1.0.3"
   },
+  "devDependencies": {
+    "auto": "^4.8.1",
+    "prettier": "^1.16.3"
+  },
   "prettier": {
     "bracketSpacing": true,
     "proseWrap": "always",
     "semi": false,
     "singleQuote": false,
     "trailingComma": "es5"
-  },
-  "devDependencies": {
-    "prettier": "^1.16.3"
   }
 }
