@@ -1,6 +1,29 @@
 {
   "name": "gatsby-plugin-emit-graphql-types",
   "version": "0.1.0",
+  "scripts": {
+    "release": "auto shipit"
+  },
+  "dependencies": {
+    "babel-plugin-relay": "^2.0.0",
+    "graphql-compiler": "^1.7.0",
+    "minilog": "^3.1.0",
+    "relay": "^0.8.0-1",
+    "relay-compiler-language-typescript": "^2.0.0",
+    "typescript": "^3.3.1",
+    "write": "^1.0.3"
+  },
+  "devDependencies": {
+    "auto": "^4.8.1",
+    "prettier": "^1.16.3"
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "proseWrap": "always",
+    "semi": false,
+    "singleQuote": false,
+    "trailingComma": "es5"
+  },
   "description": "A Gatsby plugin that emits GraphQL TypeScript types",
   "keywords": [
     "gatsby",
@@ -24,25 +47,5 @@
   },
   "bugs": {
     "url": "https://github.com/damassi/gatsby-plugin-emit-graphql-types/issues"
-  },
-  "dependencies": {
-    "babel-plugin-relay": "^2.0.0",
-    "graphql-compiler": "^1.7.0",
-    "minilog": "^3.1.0",
-    "relay": "^0.8.0-1",
-    "relay-compiler-language-typescript": "^2.0.0",
-    "typescript": "^3.3.1",
-    "write": "^1.0.3"
-  },
-  "devDependencies": {
-    "auto": "^4.8.1",
-    "prettier": "^1.16.3"
-  },
-  "prettier": {
-    "bracketSpacing": true,
-    "proseWrap": "always",
-    "semi": false,
-    "singleQuote": false,
-    "trailingComma": "es5"
   }
 }
