@@ -16,9 +16,7 @@ This is a limitation in Gatsby's current architecture. See [this issue](https://
 
 ## Setup
 
-This plugin is intentionally unpublished due to the issue above. If you would like to give this a spin see the [local plugins](https://www.gatsbyjs.org/docs/loading-plugins-from-your-local-plugins-folder/) section of the gatsby docs. 
-
-And then in `gatsby-config.js`, add the plugin:
+This plugin is intentionally unpublished due to the issue above. If you would like to give this a spin see the [local plugins](https://www.gatsbyjs.org/docs/loading-plugins-from-your-local-plugins-folder/) section of the gatsby docs and then in `gatsby-config.js`, add the plugin:
 
 ```js
 plugins: [
